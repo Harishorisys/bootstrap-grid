@@ -1,0 +1,201 @@
+/* 
+    Author : Harish.H.V.
+    Date : 20.10.2023.
+
+*/
+
+
+.head{
+    background-color: rgb(104, 104, 104); 
+    height: 53vh;
+    margin: 0px;
+    text-align: center;
+
+}
+
+.head1{
+    background-color: rgb(255, 92, 92); 
+    height: 50vh;
+    margin: 0px;
+    text-align: center;
+}
+
+p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    color: black;
+}
+
+.title{
+    color: white;
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.button{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    border: 1px solid white;
+    padding: 10px;
+}
+
+.button:hover{
+    background-color: white;
+    transition: 0.5s;
+    color: black;
+}
+
+/* --------------------------------------------------------------------------------------------- */
+
+.head1{
+    background-color: rgb(248, 248, 248); 
+    height: 51.6vh;
+    margin: 0px;
+    text-align: center;
+
+}
+.title1{
+    color: rgb(31, 31, 31);
+    font-size: 45px;
+    font-weight: bold;
+}
+
+/* -------------------------------card-------------------------------------- */
+
+
+
+.head2{
+    background-color: rgb(98, 98, 98); 
+    height: 70vh;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card{
+    margin: 30px;
+}
+.card-body{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.card-title{
+    font-size: 30px;
+}
+
+.card-text{
+    font-size: 15px;
+}
+
+img{
+    padding: 10px;
+}
+
+/* --------------------------------------------------------------------- */
+
+.blue{
+    background-color: rgb(81, 130, 235);
+    height: 48vh;
+}
+.grey{
+    background-color: grey;
+    height: 48vh;
+}
+.title2{
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(18, 18, 18);
+}
+
+
+/* --------------------------------------------------------------------- */
+
+@media screen and (max-width:1000px) {
+    .head{
+        height: 60vh;
+    }
+    .head1{
+        height: 60vh;
+    }
+
+
+}
+@media screen and (max-width:728px) {
+    .head{
+        height: 70vh;
+    }
+    .head1{
+        height: 70vh;
+    }
+    .title1{
+        font-size: 30px;
+    }
+    .title{
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width:580px) {
+
+    .head2{ 
+        height: 180vh;
+    }
+
+}
+
+@media screen and (max-width:340px) {
+    .blue{
+        height: 50vh;
+    }
+    .grey{
+        height: 50vh;
+    }
+}
+
+@media screen and (max-width:320px) {
+    .head{
+        height: 80vh;
+    }
+    .head1{
+        height: 80vh;
+    }
+    .title1{
+        font-size: 20px;
+    }
+    .title{
+        font-size: 20px;
+    }
+    .blue{
+        height: 54vh;
+    }
+    .grey{
+        height: 54vh;
+    }
+}
+@media screen and (max-width:270px) {
+    .head{
+        height: 90vh;
+    }
+    .head1{
+        height: 90vh;
+    }
+    .blue{
+        height: 60vh;
+    }
+    .grey{
+        height: 60vh;
+    }
+
+}
+@media screen and (max-width:200px) {
+    .head{
+        height: 90vh;
+    }
+    .head1{
+        height: 90vh;
+    }
+
+}
